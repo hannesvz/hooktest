@@ -1,0 +1,24 @@
+https://{default}/:
+  type: upstream
+  upstream: "app:http"
+
+https://{default}/web:
+  type: upstream
+  upstream: "app:http"
+
+https://www.{default}/:
+  type: upstream
+  upstream: "app:http"
+
+https://{all}/:
+  type: upstream
+  upstream: "app:http"
+
+https://{all}/web:
+  type: upstream
+  upstream: "app:http"
+
+https://www.{all}/:
+  type: upstream
+  upstream: "app:http"
+

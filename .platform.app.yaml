@@ -1,0 +1,14 @@
+name: app
+
+type: 'python:3.7'
+
+dependencies:
+    python3:
+        bottle: '0.12.18'
+        platformshconfig: '2.3.1'
+
+disk: 1024
+
+web:
+    commands:
+        start: python3 server.py
